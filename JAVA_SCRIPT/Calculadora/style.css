@@ -1,0 +1,65 @@
+:root {
+    --bg-color: #242424;
+    --bg-color-result: #ddd;
+    --button-color: #ff6f00;
+    --input-arrow-color: #fff;
+  }
+  * {
+    margin: 0;
+    box-sizing: border-box;
+  }
+  body {
+    background: var(--bg-color);
+  }
+  main {
+    display: grid;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+  }
+  button:not(button#copy) {
+    width: 15%;
+    height: 50px;
+    border: 0;
+    cursor: pointer;
+  }
+  button:active:not(#copy) {
+    transform: scale(1.1, 1.1);
+  }
+  #Button {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  #InputNumber {
+    display: flex;
+    justify-content: center;
+  }
+  #input {
+    outline: none;
+    border: 0;
+    text-align: end;
+    width: 80%;
+    padding: 8px;
+  }
+  #Result {
+    border: 0;
+    background-color: var(--bg-color-result);
+  }
+  
+  #DisplayResult {
+    display: flex;
+    justify-content: center;
+  }
+  
+  #copy {
+    cursor: default;
+  
+    border: 0;
+    background-color: var(--bg-color-result);
+    width: 6rem;
+    text-align: center;
+    border-right: 2px solid #1a1a1a;
+  }

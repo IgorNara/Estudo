@@ -1,0 +1,30 @@
+h1{
+    font-family: 'Montserrat';
+}
+
+body{
+    margin: 0;
+}
+
+.date{
+    font-family: 'Roboto';
+    color: #008080;
+}
+
+.post-content{
+    font-family: 'Open Sans';
+    text-align: justify;
+}
+
+.post-container{
+    background-color: #fffafa;
+    width: 70%;
+    margin: 0 auto 0 auto;
+}
+
+.post{
+    padding: 50px 100px 50px 50px;
+}
+
+
+

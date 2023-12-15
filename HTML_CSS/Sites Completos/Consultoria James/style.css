@@ -1,0 +1,178 @@
+/*
+azul escuro: rgb(2, 27, 38)
+azul claro: rgb(195, 227, 245)
+
+azul-botao: rgb(23, 176, 228)
+azul-link: rgb(9, 70, 92)
+*/
+
+#header-title{
+    font-size: 30px;
+    color: #fff;
+}
+
+body{
+    background-color: rgb(2, 27, 38);
+}
+
+main{
+    background-color: #fff;
+    margin: 0 20% 0 20%;
+    padding: 20px;
+}
+
+h1{
+    margin: 0;
+}
+
+#main-title{
+    padding-top: 100px;
+    font-size: 60px;
+    color: #fff;
+}
+
+#main-content{
+    margin: 0;
+    color: #fff;
+}
+
+#main-image{
+    background-image: url(./imagens/surf.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 500px;
+    background-position: center;
+    padding: 20px 60px 20px;
+}
+
+.title-spam{
+    color: rgb(23, 176, 228);
+}
+
+#header{
+    display: flex;
+    margin-left: 21%;
+    margin-bottom:  0;
+}
+
+
+
+a:active{
+    color: rgb(23, 176, 228);
+}
+
+.header-link{
+    text-decoration: none;
+    color: white;
+    padding-left: 60px;
+}
+
+#header-links{
+    margin: 30px 40px 20px 40px;
+}
+
+.boxes{
+    display: flex;
+    margin-top: 20px;
+    text-align: justify;
+}
+
+.box{
+    background-color: rgb(9, 70, 92);
+    width: 33%;
+    padding: 20px;
+    color: #fff;
+}
+
+.box1-2{
+    margin-right: 20px;
+}
+
+.boxes1-title{
+    margin-top: 0;
+}
+
+.boxes1-content{
+    min-height: 120px;
+}
+
+.button{
+    padding: 10px 5px;
+    background-color: rgb(23, 176, 228);
+    color: #fff;
+    font-weight: bold;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.final{
+    display: flex;
+    justify-content:space-between;
+    margin-top: 15px;
+}
+
+.t2{
+    margin-right: 180px;
+}
+
+.boxes2-image{
+    width: 350px;
+    margin-right: 20px;
+}
+
+.boxes2{
+    display: flex;
+}
+
+.boxes2-content{
+    width: 300px;
+    text-align: justify;
+    margin-top: 0;
+    margin-bottom: 75px;
+    padding-right: 70px;
+}
+
+.boxes2-content2{
+    background-color: rgb(195, 227, 245);
+    padding: 20px;
+    font-weight: 600;
+    margin-top: 0;
+    min-height: 140px;
+    text-align: justify;
+}
+
+.saiba-mais{
+    text-decoration: none;
+    color: rgb(23, 176, 228);
+    font-size: 17px;
+}
+
+#footer-links{
+    background-color: rgb(195, 227, 245);
+    margin: 0 20% 0 20%;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-link{
+    text-decoration: none;
+    color: rgb(9, 70, 92);
+    margin: 0 30px 0 30px;
+}
+
+.footer-text{
+    color: #fff;
+    margin-top: 0;
+    margin-left: 20%;
+}
+
+#underline{
+    text-decoration: underline;
+}
+
+button:active{
+    transform: scale(0.95);
+}
+
+
+

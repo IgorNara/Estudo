@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+}
+
+hr{
+    margin-bottom: 2%;
+}
+
+h1{
+    margin: 2% 0 1% 0;
+    text-align: center;
+}
+
+#tabuleiro{
+    border: solid 1px;
+    margin: auto;
+    width: 400px;
+    height: 400px;
+}
+
+.box{
+    border: solid 1px;
+    height: 132px;
+    width: 200px;
+    align-items: center ;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+}
+
+.img{
+    width: 130px;
+}
